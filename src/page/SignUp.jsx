@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import img1 from "../assets/studio_pc_2328_37 [Converted]-01.png"
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { IoEyeOutline } from "react-icons/io5";
 import { FaRegEyeSlash } from "react-icons/fa";
 import conf from '../conf';
@@ -11,6 +11,7 @@ function SignUp() {
   const [password, setPassword] = useState("")
   const [loder, setLoder] = useState(false);
   const [showPassword, setShowPassword] = useState(false);
+  const navigate = useNavigate();
 
   const signupHandler = async (e) => {
     e.preventDefault();
@@ -32,6 +33,7 @@ function SignUp() {
       })
       if (response.ok) {
         alert('sign up sucessfully');
+        navigate('/login');
       } else {
         console.error('Error:', response.statusText);
       }
