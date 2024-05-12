@@ -85,7 +85,7 @@ function Home() {
                         return 
                     }
                     setShorUrl("block")
-                    setShortenedURL(`https://www.n2r.store/${data.id}`);
+                    setShortenedURL(`${conf.api_url}/${data.id}`);
                 } else {
                     console.error('Error:', response.statusText);
                 }
