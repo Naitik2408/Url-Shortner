@@ -2,7 +2,7 @@
 
 
 
-![App screenshot](./public/icon.png)
+![App icon](./public/icon.png)
 
 
 
@@ -21,6 +21,27 @@ Convert conplex and long urls into a simple one that makes it easy to share and 
 - Generate short link out of long URL.
 
 - Keep track of all URL that you have created.
+
+
+
+
+## Images
+
+##### This is Sign up page
+
+!["Alt text for image"](./public/signup.png)
+
+##### This is Login page
+
+!["Alt text for image"](./public/login.png)
+
+##### This is Home page
+
+!["Alt text for image"](./public/home.png)
+
+##### This is Analytics page
+
+!["Alt text for image"](./public/analytics.png)
 
 
 
@@ -56,3 +77,7 @@ Convert conplex and long urls into a simple one that makes it easy to share and 
 - run `cd  Url-Shortener`
 
 - Install dependencies by running `npm install`.
+
+
+
+
